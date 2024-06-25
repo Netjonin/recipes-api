@@ -2,7 +2,10 @@ module netjonin/recipes-api
 
 go 1.21.5
 
-require github.com/gin-gonic/gin v1.10.0
+require (
+	github.com/gin-gonic/gin v1.10.0
+	github.com/rs/xid v1.5.0
+)
 
 require (
 	github.com/bytedance/sonic v1.11.9 // indirect
